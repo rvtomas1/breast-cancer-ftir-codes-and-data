@@ -1,0 +1,2 @@
+The scripts contained in this directory was those used to train and test
+the benchmark ML models used in the research.
