@@ -1,0 +1,24 @@
+The scripts provided in this directory are those used to process the data
+set considered in the research. All data used in the paper (processed) may
+be accessed in the "data" folder. Data which contains unprocessed data 
+were omitted due to patenting concerns. However, a pseudo-data set is
+presented for the purpose of illustrating how data should be encoded (on
+an Excel file), and to show how the scripts would work. Since by running 
+the scrips, the original (presented) files may be overriden, a copy
+folder "cpy_data" is made available to restore and use/plot/analyze the
+paper's data when needed. 
+
+Note: The pseudo-data comprises of 88 malignant and 78 benign ftir spectral
+vectors (same as that of the paper) but of which absorbance values ARE NOT
+those used (again due to patenting concerns) but rather generated for 
+illustration purposes. The spectral data were randomly generated using the
+eigenvectors for each benign and malignant data set which sums up >99%
+of variability. Here, the mean and standard deviation of the projection of
+the malignant and benign data set to each eigenvector was obtained. A 
+random value using the obtained means and standard deviations were 
+generated using a gaussian random generator. The random values generated
+were then used to "recreate" a benign or malignant spectrum. The 
+eigenvector profiles for benign and malignant data are stored in the MATLAB
+files "ben_eigenvectors.mat" and "mal_eigenvectors.mat" respectively under
+the "data/set generator/" folder. One may also generate a new pseudodata 
+set using the script "GeneratePseudodata.m".
