@@ -1,5 +1,0 @@
-This directory contains the obtained data using the utilized data set in
-the study. Files included in this folder is used as a backup in case the
-files included in the "data" folder are overriden due to the scripts
-functionality (in case the scripts are used to generate new data using
-the pseudodata given).
