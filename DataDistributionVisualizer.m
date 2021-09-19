@@ -12,8 +12,8 @@ load("data/median absorbance data/wavenumbers.mat"); % loading the wavenumbers c
 
 figure();
 hold on;
-m = plot(w_lab, b_num,'r','LineWidth',3); % ploting malignant spectrum
-b = plot(w_lab, m_num,'b','LineWidth',3); % plotting benign spectrum
+m = plot(w_lab, m_num,'r','LineWidth',3); % ploting malignant spectrum
+b = plot(w_lab, b_num,'b','LineWidth',3); % plotting benign spectrum
 legend([m,b],'$Malignant$','$Benign$','Interpreter','latex','FontSize',24);
 
 % setting graph details accordingly...
